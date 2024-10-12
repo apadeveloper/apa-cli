@@ -10,7 +10,7 @@ import path from 'path';
 const program = new Command();
 
 program
-  .version('1.0.0')
+  .version('1.2.0')
   .description('React Native project generator using custom template');
 
 program
@@ -43,7 +43,7 @@ program
     ]);
 
     const { appName, packageName, version } = answers;
-    const templateRepo = 'https://github.com/your-username/react-native-template'; // Your template repo
+    const templateRepo = 'https://github.com/apadeveloper/react-native-template'; // Your template repo
 
     console.log(chalk.green(`Cloning template version ${version} from ${templateRepo}`));
     try {
